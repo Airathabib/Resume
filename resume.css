@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 30px 20px;
+    background: url(bg_repeat.jpg) repeat;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+
+a {
+    color: #050216;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: aqua;
+}
+
+a:visited {
+    color: rgb(22, 5, 49);
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #8689f;
+    margin: 0px;
+}
+
+.info-text h4 {
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+table {
+    background: #d89f9f;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.bg-yellow {
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febbbb+0,fe9090+100,ff5c5c+100,fe9090+100 */
+    background: #febbbb;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 100%, #ff5c5c 100%, #fe9090 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #febbbb 0%, #fe9090 100%, #ff5c5c 100%, #fe9090 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #febbbb 0%, #fe9090 100%, #ff5c5c 100%, #fe9090 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#fe9090', GradientType=0);
+    /* IE6-9 */
+    ;
+    padding: 0;
+}
+
+.bg-yellow .table:hover {
+    background: #be7a5e;
+}
+
+.bg-red {
+    font-family: 'Pacifico';
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fac695+0,f5ab66+4,fac695+56,fac695+56,f5ab66+69,f5ab66+81,f5ab66+86,f5ab66+86,f5ab66+89,f5ab66+95,f5ab66+95,ef8d31+100 */
+    background: #fac695;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fac695 0%, #f5ab66 4%, #fac695 56%, #fac695 56%, #f5ab66 69%, #f5ab66 81%, #f5ab66 86%, #f5ab66 86%, #f5ab66 89%, #f5ab66 95%, #f5ab66 95%, #ef8d31 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fac695 0%, #f5ab66 4%, #fac695 56%, #fac695 56%, #f5ab66 69%, #f5ab66 81%, #f5ab66 86%, #f5ab66 86%, #f5ab66 89%, #f5ab66 95%, #f5ab66 95%, #ef8d31 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fac695 0%, #f5ab66 4%, #fac695 56%, #fac695 56%, #f5ab66 69%, #f5ab66 81%, #f5ab66 86%, #f5ab66 86%, #f5ab66 89%, #f5ab66 95%, #f5ab66 95%, #ef8d31 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fac695', endColorstr='#ef8d31', GradientType=0);
+    /* IE6-9 */
+}
+
+.bg-red .list {
+    padding: 15px;
+}
+
+.bg-green {
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0f3fa+0,d8f0fc+50,b8e2f6+100,b6dffd+100,b8e2f6+101 */
+    background: #e0f3fa;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e0f3fa 0%, #d8f0fc 50%, #b8e2f6 100%, #b6dffd 100%, #b8e2f6 101%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e0f3fa 0%, #d8f0fc 50%, #b8e2f6 100%, #b6dffd 100%, #b8e2f6 101%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e0f3fa 0%, #d8f0fc 50%, #b8e2f6 100%, #b6dffd 100%, #b8e2f6 101%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b8e2f6', GradientType=0);
+    /* IE6-9 */
+    ;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.likes {
+    padding: 20px;
+    background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+43,a1dbff+100 */
+    background: #f0f9ff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #f0f9ff 0%, #cbebff 43%, #a1dbff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #f0f9ff 0%, #cbebff 43%, #a1dbff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #f0f9ff 0%, #cbebff 43%, #a1dbff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff', GradientType=0);
+    /* IE6-9 */
+    ;
+    border-radius: 15px;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 600;
+}
+
+.likes .list {
+    padding: 15px;
+}
+
+.likes li {
+    list-style: upper-roman;
+}
+
+.btn:hover {
+    opacity: .8;
+    color: #EB4C42;
+}
+
+.list li {
+    color: #1d204bbd;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #112c0a;
+}
+
+.form h2 {
+    text-align: center;
+    font-family: 'Pacifico';
+}
+
+.form-row {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.form-row .form-group {
+    /* display: inline-block; */
+    margin-right: 20px;
+    /* width: calc(50%-20px); */
+}
+
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+
+@media(max-width: 600px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.form-group label {
+    display: block;
+    font-style: 14px;
+    color: #3c1570a1;
+    font-family: 'Pacifico';
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: rgb(6, 3, 15);
+    padding: 15px 0 10px;
+    outline: none;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.bg-green .form-group input,
+.bg-green .form-group textarea:hover {
+    color: #111;
+    border-radius: 5px;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
